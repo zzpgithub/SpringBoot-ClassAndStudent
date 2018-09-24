@@ -1,12 +1,12 @@
-package com.thoughtworks.grad.springBoot;
+package com.thoughtworks.beijingGrad.springbootclassandstudent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class SpringbootClassAndStudentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(SpringbootClassAndStudentApplication.class, args);
 	}
 }

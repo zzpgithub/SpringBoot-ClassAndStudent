@@ -1,17 +1,19 @@
-package com.thoughtworks.grad.springBoot.domain;
+package com.thoughtworks.beijingGrad.springbootclassandstudent.domain;
 
 public class Student {
     private int id;
     private String name;
     private int age;
+    private int classId;
 
     public Student() {
     }
 
-    public Student(int id, String name, int age) {
+    public Student(int id, String name, int age, int classId) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.classId = classId;
     }
 
     public int getId() {
@@ -36,5 +38,13 @@ public class Student {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getClassId() {
+        return classId;
+    }
+
+    public void setClassId(int classId) {
+        this.classId = classId;
     }
 }
